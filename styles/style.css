@@ -187,7 +187,6 @@ body {
 }
 .overlay a {
     text-decoration: none;
-    display: block;
 
 }
 
@@ -221,6 +220,9 @@ body {
     opacity: 0;
     transition: .3s ease;
     background-color: #534C64;
+    border: 2px solid tomato;
+    border-radius: 10px;
+
 }
 .img:hover .overlay {
     opacity: 1;
